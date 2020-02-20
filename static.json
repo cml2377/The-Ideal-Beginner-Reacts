@@ -1,6 +1,6 @@
 {
     "root": "build/",
     "routes": {
-        "/**": "./react-tutorial/public/index.html"
+        "/**": "./public/index.html"
     }
 }
