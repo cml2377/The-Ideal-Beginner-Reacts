@@ -6,6 +6,7 @@
         "react",
         "tutorial"
     ],
+    "language": "nodejs",
     "website": "https://current-weather-now.herokuapp.com/",
     "repository": "https://github.com/cml2377/The-Ideal-Beginner-Reacts",
     "scripts": {
