@@ -48,6 +48,7 @@ function App() {
             onKeyPress={search}>
           </input>
         </div>
+        {/* If there is a city, display weather. If not, display message to prompt user to search a city. */}
         {(typeof weather.main != "undefined") ? (
           <div>
             <div className="location-box">
@@ -61,7 +62,10 @@ function App() {
               </div>
             </div>
           </div>
-        ) : ("")}
+        ) : ( // If no city: 
+            <div>
+              <p className="no-city-message">Please enter a city above for current weather.</p>
+            </div>)}
       </main>
     </div>
   )
